@@ -3,20 +3,19 @@ body {
   font-family: Arial, Veranda, sans-serif;
   color: darkblue;
   background-color: rgba(173, 216, 230, 0.7);
-  opacity: 0.7;
   width: 100%;
   max-width: 0 auto;
   margin:0;
-  padding:0;
+  padding:0%;
   min-height; 100%;}
 
 header {
   color: green;
   font-family: 'Faster One', sans-serif;
-  text-shadow:2px 2px 5px darkblue;
   text-align: center;
-  top: 0px;
-  padding: 70px;}
+  text-shadow:2px 2px 5px darkblue;
+  margin: 5%;
+  margin-bottom: 2%;}
 
   @font-face{
     font-family: 'Faster One';
@@ -40,13 +39,12 @@ header {
 
   a:link {color:darkblue}
   a:visited {color: purple}
-  a:hover {color: yellow}
+  a:hover {color: orange}
   a:active {color:red}
 
   .label {
     font-size:120%;
-    color: green;
-    box-shadow: 10px 10px 5px green}
+    color: green;}
 
   input {
     font-size:120%;
@@ -75,33 +73,26 @@ border-radius:  5px}
 nav {
   background-color: green;
   border: 5px solid darkblue;
-  float: center;
-  display: block;
-  top: 0px;
-  text-align: center;
-  padding: 10px;
-  font-size: 20px;
-  width: 95%;
-  height: 7%;
-  margin: 10px 10px;
+  text-align:center;
+  line-height:50%;
+  font-size: 80%;
+  font-weight: bold;
+  width: 98%;
+  height: 4%;
+  margin: 0 auto;
   top: 0px;
   position: fixed;
-  left: 0px;
 }
 
 nav ul {
   width: 90%
+  margin:0;
 }
 
 nav li{
-  display: inline;
-  margin-right: 40px;
+  display: inline-block;
+  margin-right: 7%;
 }
-
-.portfolio {
-  text-align: center;
-  font-size: 20px;
-  }
 
   h2{
     font-size:28px;
@@ -113,20 +104,27 @@ nav li{
   }
 
 .tile img{
-  width: 15%
+  width: 60%;
 }
 
 .wrapper {
-  background-color: yellow
-  margin: 20px;
-  padding: 10px;
-  width: 90%;
-
+  padding: 1%;
+  padding-left: 2%;
+  width: 100%;
+  display: inline-block;
+  font-size: 0px;
+  margin: auto;
+  font-size: 0px;
+  margin-bottom: 1.5%;
 }
 
 .tile {
-  border: 2px dashed black
-  width: 15%;
+  width: 25%;
+  background-color: yellow;
   display:inline-block;
-
+  border: 4px double green;
+  font-size: 16px;
+  text-align: left;
+  padding: 2%;
+  margin: 1%;
 }
