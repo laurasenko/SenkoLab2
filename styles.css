@@ -104,6 +104,8 @@ nav li{
   }
 
 .tile img{
+  display: block;
+  margin: auto;
   width: 60%;
 }
 
